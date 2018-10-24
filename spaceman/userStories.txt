@@ -1,0 +1,38 @@
+BASIC:
+1. user should guess letter
+2.
+3. if the guess is right, program should reveal the letter(s)
+4. number of chances should be displayed and updated after each wrong guess
+5. max number of guesses is 7 (turns)
+6. if the user repates  previous wrong guessed letter, the program should notify the user,
+    but do not count as missed chance
+7. if the user guesses the word within 7 missed letter, he/she wins.
+
+COMPLEX:
+1. User is able to choose category of secret words: cars, movies etc
+2. wrongly guessed letters should be notified and displayed in terminal
+
+_________
+
+- the program gets input()
+- input is only string
+- format of the word is shown as ___ ___ _ _ etc
+
+_______________
+
+- should have two themes - arrays: countries and food
+- each array has 4 words
+
+First user chooses theme.
+Then program randomly chooses word from the theme and counts the number of letter in that word.
+program displays “_” which will be equal to number of words. Example, cat >>>   _ _ _ and shows number of misses allowed (7).
+Then program ask a user to make input - one letter, upper and lower case should work.
+
+if user input exist in the word, the letter(s) is reveled instead of “_” in the position(s) of correctly guessed letter. if user guesses wrong, number of allowed misses decreases (6). and wrong letters are shown as well. Example: HAHA MISSED IT. YOU HAVE (6) chances. repeated misses are not count
+
+
+Step1 - Greeting and asks for input >> choose theme (array). Each theme has 4 words
+Step2 - it chooses random word from the theme (array) based on user input
+Step3 - counts the chosen word’s letters
+Step4 - prints out ” _ ” number times as the letters in the word and number of allowed tries (7)
+Step5 -
